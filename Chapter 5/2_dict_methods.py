@@ -1,0 +1,11 @@
+marks = {"sohan": 100, "rohan": 45, "mohan": 56}
+# print(a["harry"])
+# print(a.keys())
+# marks.update({"sohan": 99, 'johan':78})
+# print(marks.get('sohan'))
+# marks.clear()
+# c = marks.copy()
+# print(marks.items())
+# marks.pop("sohan")
+# marks.setdefault('local', 'jashore')
+print(marks , type(marks))
