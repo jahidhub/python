@@ -1,9 +1,24 @@
-"""We are going to write a program that generates a random number and asks the user to
-guess it.
-If the player’s guess is higher than the actual number, the program displays “Lower
-number please”. Similarly, if the user’s guess is too low, the program prints “higher
-number please” When the user guesses the correct number, the program displays the
-number of guesses the player used to arrive at the number"""
+from random import randint
 
+print("Welcome to the Number Guessing Game!")
+print("I'm thinking of a number between 1 and 99.")
+print("Try to guess it!\n")
 
-cumputer_guess= 
+actual = randint(1, 99)
+player = -1
+guess = 0
+
+while player != actual:
+    try:
+        player = int(input("Enter your guess number: "))
+        guess += 1
+
+        if player > actual:
+            print("📉 Lower number please!\n")
+        elif player < actual:
+            print("📈 Higher number please!\n")
+        else:
+            print(f"🎉 Congratulations! You guessed the number {actual} correctly!")
+            print(f"✅ You took {guess} guesses to get it right.\n")
+    except ValueError:
+        print("❌ Please enter a valid number!\n")
