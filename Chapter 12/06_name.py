@@ -1,1 +1,1 @@
-from main import myfunc
+from modules import myfunc
