@@ -1,6 +1,0 @@
-# CHAPTER 12 – ADVANCED PYTHON 1
-
-# Using walrus operator
-
-if (n := len([1, 2, 3, 4, 5])) > 3:
-    print(f"List is too long ({n} elements, expected <= 3)")
