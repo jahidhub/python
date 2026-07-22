@@ -1,5 +1,4 @@
 # SNAKE, WATER, GUN GAME
-
 # Rules:
 # Snake drinks water (snake wins)
 # Water drowns gun (water wins)
@@ -7,7 +6,6 @@
 # If both are same → Tie
 
 import random
-
 # Computer choice
 computer = random.choice([-1, 0, 1])
 
