@@ -16,7 +16,14 @@
 #     print("Grade: Fail")
 
 
-a = 100
-b= 200
+# a = 100
+# b= 200
 
-print("Hello this is first") if a > b else print("This is end")
+# print("Hello this is first") if a > b else print("This is end")
+
+
+a = 33
+b = 200
+
+if b > a:
+    pass
