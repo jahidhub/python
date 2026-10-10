@@ -1,8 +1,11 @@
 import random
 
-choices = ['r', 'p', 's']
-emoji = {'r': '✊', 'p': '✋', 's': '✌️'}
 
+rock = 'r'
+scissors = 's'
+paper = 'p'
+emoji = {rock: '✊', paper: '✋', scissors: '✌️'}
+choices =  (tuple(emoji.keys()))
 def get_user_choice():
     while True:
         user_choice = input("Enter your choice (r for rock, p for paper, s for scissors) or 'exit' to quit: ").lower()
