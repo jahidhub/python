@@ -4,7 +4,7 @@ import os
 
 def get_file_name():
     # Ask for the file name and replace spaces with dashes
-    name = input("Enter the file name: ").strip()
+    name = input("Enter the file name: ").lower().strip()
     name = name.replace(" ", "-")
 
     # Check for the extension
